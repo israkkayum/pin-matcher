@@ -37,8 +37,9 @@ function veryfyPin(){
     successMessage.style.display = 'none';
     errorMessage.style.display = 'none';
     if (generatePin == typedPin) {
-       successMessage.style.display = 'block';
-       errorMessage.style.display = 'none';
+    //    successMessage.style.display = 'block';
+    //    errorMessage.style.display = 'none';
+    location.href = "bank.html";
     }
     else{
         successMessage.style.display = 'none';
